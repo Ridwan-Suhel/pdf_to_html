@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    margin: 0px 20px;
+    
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #b62e27;
+}
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+p{
+  font-weight: 500;
+font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    margin: 0px 20px 15px 20px;
+}
+span{
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.introduce_section ol{
+    margin-left: 60px; 
+}
+.introduce_section ol li{
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.header_img_box, .safety_img_box, .escape_img_box, .marking_img_box, .low_lvl_img_box, .plan_img_box, .quality_img_box {
+    width: 100%;
+    margin: 25px 0px 20px 0px;
+}
+.header_img_box img {
+    width: 95%;
+    margin: 0px 20px; 
+}
+.low_lvl_img_box img {
+    width: 100%;
+    margin: 0px 20px; 
+}
+.plan_img_box img {
+    width: 100%;
+    margin: 0px 20px; 
+    height: 650px;
+}
+.quality_img_box img {
+    width: 100%;
+    margin: 0px 20px; 
+}
+
+img{
+     margin: auto;
+    display: block;
+}
+.safety_img_box span{
+    margin-left: 190px;
+}
+.escape_img_box span{
+    margin-left: 250px;
+}
